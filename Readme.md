@@ -8,4 +8,3 @@
 
 ### This project will be hosted with github pages
 
-uurlo del sium
