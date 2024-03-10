@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaterRampino</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- link dei font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h2 id="titolo">WateRampino</h2>
+    </header>
+
+    <div class="quiz">
+        <div class="quizscelta">
+            <h2>Quante volte al giorno tiri lo sciacquone del water?</h2>
+            <input type="number" placeholder="0" id="water">
+        </div>
+        <div class="quizscelta">
+            <h2>Quante volte a settimana fai il bucato?</h2>
+            <input type="number" placeholder="0" id="bucato">
+        </div>
+        <div class="quizscelta">
+            <h2>Quante volte a settimana lavi i piatti a mano?</h2>
+            <input type="number" placeholder="0" id="piatti">
+        </div>
+        <div class="quizscelta">
+            <h2>Quante volte a settimana lavi i piatti con la lavastoviglie?</h2>
+            <input type="number" placeholder="0" id="lavstoviglie">
+        </div>
+        <div class="quizscelta">
+            <h2>Quante volte a settimana fai le pulizie casalinghe?</h2>
+            <input type="number" placeholder="0" id="pulizie">
+        </div>
+    </div>
+
+    <button class="btn" id="btn"> Calcola! </button>
+    <div class="fleximan">
+    <h3>Il tuo consumo settimanale di acqua e' </h3>
+    <h3 id="res"></h3>
+    </div>
+
+    <script src="../js/consumo.js"></script>
+</body>
+</html>
