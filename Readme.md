@@ -7,3 +7,5 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-000.svg?logo=javascript&style=for-the-badge)
 
 ### This project will be hosted with github pages
+
+uurlo del sium
