@@ -33,7 +33,7 @@ setInterval(VediValori,1000);
 
 function Calcolo(){
     var LitrialGiorno = ValueWater*gabinetto*7 + ValueBucato*bucato + ValuePiatti*piatti + ValuePulizie*pulizie;
-    document.getElementById('res').innerHTML = LitrialGiorno;
+    document.getElementById('res').innerHTML = LitrialGiorno + " litri";
 }
 
 function funzioneIF(){
