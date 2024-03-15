@@ -49,6 +49,6 @@ function funzioneIF(){
     if (!button.classList.contains('no')){
         button.addEventListener('click', Calcolo);
     } else {
-        document.getElementById('res').innerHTML = "Non hai inserito nessun valore"
+        document.getElementById('res').innerHTML = "Non hai inserito nessun valore oppure hai inserito un valore non valido (es. 0 oppure un valore negativo).";
     }
 }
