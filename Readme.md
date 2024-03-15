@@ -8,3 +8,4 @@
 
 ### This project will be hosted with github pages
 
+The site will be hosted with github pages at: ![educazionecivica.github.io](https://educazionecivica.github.io)
