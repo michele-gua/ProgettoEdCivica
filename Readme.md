@@ -6,6 +6,6 @@
 ![CSS3](https://img.shields.io/badge/CSS3-2572b6.svg?logo=css3&style=for-the-badge)
 ![JavaScript](https://img.shields.io/badge/JavaScript-000.svg?logo=javascript&style=for-the-badge)
 
-### This project will be hosted with github pages
+## This project will be hosted with github pages
 
 The site will be hosted with github pages at: [https://michele-gua.github.io/educazionecivica](https://michele-gua.github.io/educazionecivica)
