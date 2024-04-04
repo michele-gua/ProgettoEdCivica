@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .articolo1espand {
+    border: 1px solid #ccc;
+    overflow: hidden;
+    transition: height 0.3s ease;
+  }
+  
+  .expanded .content {
+    padding: 20px;
+  }
+  
+  .contenuto {
+    padding: 0;
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .toggle-button {
+    background-color: #f0f0f0;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .arrow {
+    font-size: 24px;
+    transition: transform 0.2s ease;
+  }
+  

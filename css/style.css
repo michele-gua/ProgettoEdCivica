@@ -146,3 +146,7 @@ font-style: normal;
 input {
     border-radius: 7px;
 }
+
+.arrow{
+    font-size: 50px
+}
