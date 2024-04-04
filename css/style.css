@@ -135,3 +135,14 @@ input{
     flex-direction: row;
     justify-content: center;
 }
+
+.quiz{
+font-family: "Noto Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: 350;
+font-style: normal;
+}
+
+input {
+    border-radius: 7px;
+}

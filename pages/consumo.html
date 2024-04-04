@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acqua - Quanto consumi?</title>
     <link rel="stylesheet" href="../css/style.css">
-    <!-- link dei font -->
+<!-- link dei font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+<!-- Link al secondo font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h2 id="titolo">Acqua</h2>
+        <h2 id="titolo">Acqua - Calcola il tuo consumo</h2>
     </header>
     <div id="contienisceltelato">
         <div id="sceltacasetta"> <a href="../index.html"><img src="../svg/home.svg" alt="Casetta"></a></div>
@@ -45,10 +49,10 @@
         </div>
     </div>
 
-    <button class="btn" id="btn"> Calcola! </button>
+    <button class="btn" id="btn" onclick="BottoneCliccato()"> Calcola! </button>
     <div class="fleximan">
-    <h3>Il tuo consumo settimanale di acqua e'</h3>
-    <h3 id="res"></h3>
+    <h3 class="quiz">Il tuo consumo settimanale di acqua e'</h3>
+    <h3 id="res" class="quiz"></h3>
     </div>
 
     <script src="../js/consumo.js"></script>

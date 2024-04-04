@@ -25,7 +25,7 @@ function VediValori(){
      
 }
 
-setInterval (funzioneIF,1000);
+setInterval (funzioneIF,250);
 setInterval(VediValori,1000);
 
 
@@ -38,17 +38,19 @@ function Calcolo(){
 
 function funzioneIF(){
     
-    if(ValueWater <= 0 || ValueBucato <= 0 || ValuePiatti <= 0 || ValueBucato <= 0 || ValuePulizie <= 0 || ValueLavas <= 0){
+    if(ValueWater < 0 || ValueBucato < 0 || ValuePiatti < 0 || ValueBucato < 0 || ValuePulizie < 0 || ValueLavas < 0){
         button.classList.remove('btn');
         button.classList.add('no');
     }else{
         button.classList.remove('no');
         button.classList.add('btn');
     }
-    
-    if (!button.classList.contains('no')){
-        button.addEventListener('click', Calcolo);
+}
+
+function BottoneCliccato(){
+    if (!button.classList.contains('no')) {
+        Calcolo();
     } else {
-        document.getElementById('res').innerHTML = "Non hai inserito nessun valore oppure hai inserito un valore non valido (es. 0 oppure un valore negativo).";
+        alert("Hai inserito un valore minore di 0! 😢 \nInserisci un valore maggiore o uguale a 0 per continuare.");
     }
 }
