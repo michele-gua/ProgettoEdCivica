@@ -150,3 +150,9 @@ input {
 .arrow{
     font-size: 50px
 }
+
+@media (max-width: 880px){
+    #contienisceltelato{
+        max-width: 880px;
+    }
+}
