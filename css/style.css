@@ -155,5 +155,24 @@ input {
     #contienisceltelato{
         max-width: 880px;
     }
+    #scelta{
+        font-size: 15px;
+    }
+    body{
+        font-size: 15px;
+    }
+    img{
+        max-width: 50px;
+        max-height: 50px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    button{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 15px;
+    }
 }
 
