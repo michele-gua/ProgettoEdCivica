@@ -174,5 +174,9 @@ input {
     h3{
         font-size: 15px;
     }
+    input{
+        height: 25px;
+        width: 25px;
+    }
 }
 
