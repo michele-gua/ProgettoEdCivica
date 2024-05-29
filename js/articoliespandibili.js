@@ -75,3 +75,39 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     });
   });
+  document.addEventListener("DOMContentLoaded", function() {
+    
+    const articolo3 = document.querySelector(".articolo5espand");
+    const content3 = document.querySelector(".contenuto5");
+    const arrow3 = document.querySelector(".arrow5");
+
+    
+    document.querySelector(".toggle-button5").addEventListener("click", function() {
+      articolo3.classList.toggle("expanded");
+      if (articolo3.classList.contains("expanded")) {
+        arrow3.textContent = "⬆️"; // freccia verso sinistra
+        content3.style.height = "auto";
+      } else {
+        arrow3.textContent = "⬇️"; // freccia verso destra
+        content3.style.height = "0";
+      }
+    });
+  });
+  document.addEventListener("DOMContentLoaded", function() {
+    
+    const articolo3 = document.querySelector(".articolo6espand");
+    const content3 = document.querySelector(".contenuto6");
+    const arrow3 = document.querySelector(".arrow6");
+
+    
+    document.querySelector(".toggle-button6").addEventListener("click", function() {
+      articolo3.classList.toggle("expanded");
+      if (articolo3.classList.contains("expanded")) {
+        arrow3.textContent = "⬆️"; // freccia verso sinistra
+        content3.style.height = "auto";
+      } else {
+        arrow3.textContent = "⬇️"; // freccia verso destra
+        content3.style.height = "0";
+      }
+    });
+  });

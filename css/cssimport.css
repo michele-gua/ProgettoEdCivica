@@ -31,6 +31,16 @@ body {
     overflow: hidden;
     transition: height 0.3s ease;
   }
+  .articolo5espand {
+    border: 1px solid #ccc;
+    overflow: hidden;
+    transition: height 0.3s ease;
+  }
+  .articolo6espand {
+    border: 1px solid #ccc;
+    overflow: hidden;
+    transition: height 0.3s ease;
+  }
   
   .expanded .content {
     padding: 20px;
@@ -53,6 +63,16 @@ body {
     overflow: hidden;
   }
   .contenuto4{
+    padding: 0;
+    height: 0;
+    overflow: hidden;
+  }
+  .contenuto5{
+    padding: 0;
+    height: 0;
+    overflow: hidden;
+  }
+  .contenuto6{
     padding: 0;
     height: 0;
     overflow: hidden;
@@ -90,6 +110,22 @@ body {
     align-items: center;
     justify-content: center;
   }
+  .toggle-button5 {
+    background-color: #f0f0f0;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .toggle-button6 {
+    background-color: #f0f0f0;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   
   .arrow {
     font-size: 24px;
@@ -105,6 +141,14 @@ body {
     transition: transform 0.2s ease;
   }
   .arrow4 {
+    font-size: 24px;
+    transition: transform 0.2s ease;
+  }
+  .arrow5 {
+    font-size: 24px;
+    transition: transform 0.2s ease;
+  }
+  .arrow6 {
     font-size: 24px;
     transition: transform 0.2s ease;
   }
